@@ -1,0 +1,79 @@
+{
+  "CurrentRequestName": "AddUserMembership",
+  "CurrentPath": "C:\\Subversion\\Projects\\Marketing\\Trunk\\Software Testing Cup\\Spira-Data-Load\\ProjectUser.rest",
+  "Name": "ProjectUser.rest",
+  "Requests": [
+    {
+      "Name": "RetrieveUserMembership",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/users",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "AddUserMembership",
+      "Url": "https://xxxx.spiraservice.net/Services/v5_0/RestService.svc/projects/{project_id}/users",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "UpdateUserMembership",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/users",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "CurrentRequestName": "Create",
+  "CurrentPath": "C:\\Subversion\\Projects\\Marketing\\Trunk\\Software Testing Cup\\Spira-Data-Load\\User.rest",
+  "Name": "User.rest",
+  "Requests": [
+    {
+      "Name": "Create",
+      "Url": "https://xxxx.spiraservice.net/Services/v5_0/RestService.svc/users?password={password}&password_question={password_question}&password_answer={password_answer}&project_id={project_id}&project_role_id={project_role_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "password",
+          "TokenName": "{password}",
+          "Value": ""
+        },
+        {
+          "Name": "password_question",
+          "TokenName": "{password_question}",
+          "Value": ""
+        },
+        {
+          "Name": "password_answer",
+          "TokenName": "{password_answer}",
+          "Value": ""
+        },
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "project_role_id",
+          "TokenName": "{project_role_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Retrieve",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    },
+    {
+      "Name": "RetrieveById",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users/{user_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "user_id",
+          "TokenName": "{user_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveByUserName",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users/usernames/{user_name}?include_inactive={include_inactive}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "user_name",
+          "TokenName": "{user_name}",
+          "Value": ""
+        },
+        {
+          "Name": "include_inactive",
+          "TokenName": "{include_inactive}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Delete",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users/{user_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "user_id",
+          "TokenName": "{user_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Update",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users/{user_id}",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "user_id",
+          "TokenName": "{user_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveAll",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/users/all",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    }
+  ]
+}

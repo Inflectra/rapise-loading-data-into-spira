@@ -1,0 +1,316 @@
+{
+  "CurrentRequestName": "Create1",
+  "CurrentPath": "C:\\Subversion\\Projects\\Marketing\\Trunk\\Software Testing Cup\\Spira-Data-Load\\Release.rest",
+  "Name": "Release.rest",
+  "Requests": [
+    {
+      "Name": "Retrieve1",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Retrieve2",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/search?start_row={start_row}&number_rows={number_rows}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "start_row",
+          "TokenName": "{start_row}",
+          "Value": ""
+        },
+        {
+          "Name": "number_rows",
+          "TokenName": "{number_rows}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveById",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{release_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Count",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/count",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create1",
+      "Url": "https://xxxx.spiraservice.net/Services/v5_0/RestService.svc/projects/{project_id}/releases",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create2",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{parent_release_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "parent_release_id",
+          "TokenName": "{parent_release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Update",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Delete",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{release_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Move",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{release_id}/move?destination_release_id={destination_release_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        },
+        {
+          "Name": "destination_release_id",
+          "TokenName": "{destination_release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Indent",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{release_id}/indent",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Outdent",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/releases/{release_id}/outdent",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "release_id",
+          "TokenName": "{release_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

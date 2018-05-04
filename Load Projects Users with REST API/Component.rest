@@ -1,0 +1,181 @@
+{
+  "CurrentRequestName": "Create",
+  "CurrentPath": "C:\\Subversion\\Projects\\Marketing\\Trunk\\Software Testing Cup\\Spira-Data-Load\\Component.rest",
+  "Name": "Component.rest",
+  "Requests": [
+    {
+      "Name": "Retrieve",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/components?active_only={active_only}&include_deleted={include_deleted}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "active_only",
+          "TokenName": "{active_only}",
+          "Value": ""
+        },
+        {
+          "Name": "include_deleted",
+          "TokenName": "{include_deleted}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveById",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/components/{component_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "component_id",
+          "TokenName": "{component_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create",
+      "Url": "https://xxxx.spiraservice.net/Services/v5_0/RestService.svc/projects/{project_id}/components",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Update",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/components/{component_id}",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "component_id",
+          "TokenName": "{component_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Delete",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/components/{component_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "component_id",
+          "TokenName": "{component_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Undelete",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/components/{component_id}/undelete",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "component_id",
+          "TokenName": "{component_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

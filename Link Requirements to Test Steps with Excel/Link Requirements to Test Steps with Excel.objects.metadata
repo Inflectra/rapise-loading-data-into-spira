@@ -1,0 +1,2722 @@
+{
+	"Requirement_Count1": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Count2": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Create1": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Create2": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Create3": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Retrieve1": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Retrieve2": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_RetrieveById": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Update": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_RetrieveForOwner": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Delete": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Move": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Indent": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"Requirement_Outdent": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"RequirementTestStepCoverage_AddTestStepCoverage": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"RequirementTestStepCoverage_RetrieveTestStepCoverage": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"RequirementTestStepCoverage_RemoveTestStepCoverage": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_AddUpdateAutomationScript": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Count1": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Count2": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Retrieve1": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Retrieve2": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Move": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_RetrieveForOwner": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Create": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_RetrieveById": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Update": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestCase_Delete": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_MoveStep": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_DeleteStep": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_AddStep": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_RetrieveSteps": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_RetrieveStepById": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	},
+	"TestStep_UpdateStep": {
+		"actions": [
+			{
+				"name": "DoExecute",
+				"signature": "params"
+			},
+			{
+				"name": "DoVerify",
+				"signature": "msg, jsonPath, expectedValue"
+			}
+		],
+		"properties": [
+			{
+				"name": "Method",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Credential",
+				"setsign": "value, value2",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Url",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "Parameters",
+				"setsign": "v,v1",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestHeaders",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyText",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "RequestBodyObject",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			},
+			{
+				"name": "ResponseIsErrorStatus",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseHeaders",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyText",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ResponseBodyObject",
+				"setsign": "",
+				"getsign": "jsonPath,info",
+				"readonly": true
+			}
+		]
+	}
+}

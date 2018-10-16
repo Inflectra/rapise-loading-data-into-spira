@@ -1,0 +1,84 @@
+{
+  "CurrentRequestName": "AddTestStepCoverage",
+  "CurrentPath": "C:\\GitHub\\rapise-loading-data-into-spira\\Link Requirements to Test Steps with Excel\\RequirementTestStepCoverage.rest",
+  "Name": "RequirementTestStepCoverage.rest",
+  "Requests": [
+    {
+      "Name": "AddTestStepCoverage",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/test-steps",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveTestStepCoverage",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}/test-steps",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RemoveTestStepCoverage",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/test-steps",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

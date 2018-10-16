@@ -1,0 +1,397 @@
+{
+  "CurrentRequestName": "Count1",
+  "CurrentPath": "C:\\GitHub\\rapise-loading-data-into-spira\\Link Requirements to Test Steps with Excel\\Requirement.rest",
+  "Name": "Requirement.rest",
+  "Requests": [
+    {
+      "Name": "Count1",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/count",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Count2",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/count",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create1",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create2",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/indent/{indent_position}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "indent_position",
+          "TokenName": "{indent_position}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Create3",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/parent/{parent_requirement_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "parent_requirement_id",
+          "TokenName": "{parent_requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Retrieve1",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/search?starting_row={starting_row}&number_of_rows={number_of_rows}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "starting_row",
+          "TokenName": "{starting_row}",
+          "Value": ""
+        },
+        {
+          "Name": "number_of_rows",
+          "TokenName": "{number_of_rows}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Retrieve2",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements?starting_row={starting_row}&number_of_rows={number_of_rows}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "starting_row",
+          "TokenName": "{starting_row}",
+          "Value": ""
+        },
+        {
+          "Name": "number_of_rows",
+          "TokenName": "{number_of_rows}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveById",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Update",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveForOwner",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/requirements",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": []
+    },
+    {
+      "Name": "Delete",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Move",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}/move/{destination_requirement_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        },
+        {
+          "Name": "destination_requirement_id",
+          "TokenName": "{destination_requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Indent",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}/indent",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "Outdent",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/requirements/{requirement_id}/outdent",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "requirement_id",
+          "TokenName": "{requirement_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

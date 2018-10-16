@@ -1,0 +1,201 @@
+{
+  "CurrentRequestName": "MoveStep",
+  "CurrentPath": "C:\\GitHub\\rapise-loading-data-into-spira\\Link Requirements to Test Steps with Excel\\TestStep.rest",
+  "Name": "TestStep.rest",
+  "Requests": [
+    {
+      "Name": "MoveStep",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{source_test_step_id}/move?destination_test_step_id={destination_test_step_id}",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "source_test_step_id",
+          "TokenName": "{source_test_step_id}",
+          "Value": ""
+        },
+        {
+          "Name": "destination_test_step_id",
+          "TokenName": "{destination_test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "DeleteStep",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{test_step_id}",
+      "Method": "DELETE",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_step_id",
+          "TokenName": "{test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "AddStep",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "POST",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveSteps",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "RetrieveStepById",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps/{test_step_id}",
+      "Method": "GET",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_step_id",
+          "TokenName": "{test_step_id}",
+          "Value": ""
+        }
+      ]
+    },
+    {
+      "Name": "UpdateStep",
+      "Url": "http://api.inflectra.com/Spira/Services/v5_0/RestService.svc/projects/{project_id}/test-cases/{test_case_id}/test-steps",
+      "Method": "PUT",
+      "Body": "",
+      "Credential": null,
+      "Headers": [
+        {
+          "Name": "Accept",
+          "Value": "application/json"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        }
+      ],
+      "Parameters": [
+        {
+          "Name": "project_id",
+          "TokenName": "{project_id}",
+          "Value": ""
+        },
+        {
+          "Name": "test_case_id",
+          "TokenName": "{test_case_id}",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 //Put your custom functions and variables in this file
 var username = 'administrator';
-var apiKey = '{25070416-723F-4FF1-8B38-A810C7EF1BA6}';
+var apiKey = '{api key here}';
 var projectId = 1;	/* Sample: LIS */
 
 //Documentation on Inflectra website
